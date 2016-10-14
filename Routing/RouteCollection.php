@@ -2,12 +2,14 @@
 
 namespace Venta\Contracts\Routing;
 
+use IteratorAggregate;
+
 /**
  * Interface RouteCollection
  *
  * @package Venta\Contracts\Routing
  */
-interface RouteCollection
+interface RouteCollection extends IteratorAggregate
 {
 
     /**
